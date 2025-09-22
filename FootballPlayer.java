@@ -48,6 +48,17 @@ public class FootballPlayer {
 			System.out.println("Not Eligible");
 			
 		}
+		if(age < 20 ){
+			System.out.println("Rising Star");
+		}
+		else if (age<=30 || age >= 20){
+			System.out.println("Prime Player");
+		}
+		else {
+			System.out.println("Veteran");
+		}
+	
+	    
 		
 		
 		
