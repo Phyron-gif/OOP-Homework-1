@@ -57,6 +57,43 @@ public class FootballPlayer {
 		else {
 			System.out.println("Veteran");
 		}
+		System.out.println("Enter your jersey number: ");
+		switch (jersey_number) {
+			case 1:
+				System.out.println("Goalkeeper");
+				break;
+		
+			case 2:
+			case 5:
+			    System.out.println("Defender");
+
+				break;
+			case 6:
+			case 8:
+			    System.out.println("Midfielder");
+				break;
+			case 7:
+			case 11:
+			    System.out.println("Winger");
+				break;
+			case 9:
+			
+			    System.out.println("Striker");
+				break;
+			case 10:
+			
+			    System.out.println("Playmaker");
+				break;
+			default:
+			    System.out.println("Unknown position for jersey number " + jersey_number);
+
+		}
+    
+
+
+
+		}
+		
 	
 	    
 		
@@ -77,4 +114,3 @@ public class FootballPlayer {
 		
 		
 	}
-}
