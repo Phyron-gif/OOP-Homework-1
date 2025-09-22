@@ -53,6 +53,7 @@ public class FootballPlayer {
 		}
 		else if (age<=30 || age >= 20){
 			System.out.println("Prime Player");
+
 		}
 		else {
 			System.out.println("Veteran");
@@ -85,9 +86,22 @@ public class FootballPlayer {
 			    System.out.println("Playmaker");
 				break;
 			default:
-			    System.out.println("Unknown position for jersey number " + jersey_number);
+			    System.out.println("Player position not known");
 
 		}
+		if ((age<=30 || age >= 20) && final_weight < 80){
+			System.out.println("starting lineup");
+		
+
+		
+
+		}
+		else{
+			System.out.println("bench");
+
+		}
+
+		
     
 
 
